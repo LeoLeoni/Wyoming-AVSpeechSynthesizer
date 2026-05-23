@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.wyoming.avspeech</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/local/bin/wyoming-avspeech</string>
+        <string>--port</string>
+        <string>10200</string>
+        <string>--voice</string>
+        <string>Samantha (Enhanced)</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>/tmp/wyoming-avspeech.log</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/wyoming-avspeech.err</string>
+</dict>
+</plist>
